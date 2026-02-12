@@ -11,7 +11,7 @@ public class Articulo {
         this.precioUnitario = precioUnitario;
     }
 
-    public double getPrecioTotal() {
+    public double getSubtotal() {
         return cantidad * precioUnitario;
     }
 
