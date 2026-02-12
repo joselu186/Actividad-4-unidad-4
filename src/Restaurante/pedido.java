@@ -49,7 +49,7 @@ public class Pedido {
         System.out.println("Estado: " + estado);
         System.out.println("Articulos:");
         for (Articulo a : articulos) {
-            System.out.println(a.getNombre() + " x" + a.getCantidad() + " - " + a.getPrecioUnidad());
+            System.out.println(a.getNombre() + " x" + a.getCantidad() + " - " + a.getPrecioUnitario());
         }
         System.out.println("Total: " + calcularTotal());
     }
